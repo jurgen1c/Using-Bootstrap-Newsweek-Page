@@ -10,25 +10,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header width">
+  <header class="header width d-none d-md-block">
     <div class="row">
-      <div class="col-2">
-        <a href=""><h5><i class="fas fa-cloud-sun"></i> 20º La Encarnacion, PY <i class="fas fa-angle-right"></i></h5></a>
-        <h5>Thu, Jul 30, 2020</h5>
+      <div class="col-3 py-5">
+        <a class="my-4" href=""><h5><i class="fas fa-cloud-sun"></i> 20º La Encarnacion, PY <i class="fas fa-angle-right"></i></h5></a>
+        <h5 class="my-4">Thu, Jul 30, 2020</h5>
       </div>
-      <div class="col-8 text-center">
-        <a href=""><img src="./img/logo.svg" class="" alt="logo" width="300" height="80"></a>
+      <div class="col-6 text-center">
+        <a href=""><img src="./img/logo.svg" class="" alt="logo" width="500"></a>
       </div>
-      <div class="col-2">
-        <a href="#" >Login</a>
-        <a href="#" class="btn-primary">Subscribe</a>
+      <div class="col-3 pt-5 mt-4 d-flex">
+        <div class="ml-4">
+          <a href="#" >Login</a>
+        </div>
+        <div class="ml-4">
+          <a href="#" class="btn-primary">Subscribe</a>
+        </div>
       </div>
     </div>
   </header>
   <div class="sticky-top width">
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand d-md-none" href="#">Newsweek</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
+      <a class="navbar-brand d-md-none" href="#"><img src="./img/logo.svg" alt="logo" width="150px"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -69,41 +73,44 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <div class="editor-img-box">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
         </form>
       </div>
     </nav>
   </div>
   <main class="container-fluid">
     
+    <div class="row d-none d-md-block w-100">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">TRENDING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">TRUMP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">JOE BIDEN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">CHINA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">CORONAVIRUS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">2020 ELECTION</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <!--Featured Stories-->
 
     <section class="row container-fluid">
-      <div class="row d-none d-md-block">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">TRENDING</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">TRUMP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">JOE BIDEN</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">CHINA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">CORONAVIRUS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">2020 ELECTION</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
       <div class="row no-gutter">
         
         <div class="col-12 col-md-4 col-lg-6 order-md-2 order-1">
@@ -1298,7 +1305,7 @@
       </div>
     </section>
   </main>
-  <footer class="container border-top">
+  <footer class="container-fluid border-top">
     <!--Footer Header-->
     <div class="row flex-md-column">
       <div class="col-lg-7 col-md-12 d-flex">
@@ -1325,38 +1332,36 @@
     </div>
     <!--Footer Links-->
     <div class="row">
-      <div class="col-lg-12 border-top">
+      <div class="col-12 border-top">
         <h3>Editions</h3>
         <nav>
-          <ul class="d-flex">
-            <li><a href="">U.S. Edition</a></li>
-            <li><a href="">日本</a></li>
-            <li><a href="">Pakistan</a></li>
-            <li><a href="">Polska</a></li>
-            <li><a href="">România</a></li>
+          <ul class="d-flex list-unstyled">
+            <li class="ml-3"><a href="">U.S. Edition</a></li>
+            <li class="ml-3"><a href="">日本</a></li>
+            <li class="ml-3"><a href="">Pakistan</a></li>
+            <li class="ml-3"><a href="">Polska</a></li>
+            <li class="ml-3"><a href="">România</a></li>
           </ul>
         </nav>
       </div>
-      <div class="col-lg-12">
+      <div>
         <nav>
-          <ul class="d-flex">
-            <li><a href="">About Us</a></li>
-            <li><a href="">Corrections</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Editorial Guidelines</a></li>
-            <li><a href="">Advertise</a></li>
-            <li><a href="">Copyright</a></li>
-            <li><a href="">Terms & Conditions</a></li>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Cookie Policy</a></li>
-            <li><a href="">Terms of Sale</a></li>
-            <li><a href="">Archive</a></li>
-            <li><a href="">Announcements</a></li>
+          <ul class="d-flex list-unstyled">
+            <li class="ml-3"><a href="">About Us</a></li>
+            <li class="ml-3"><a href="">Corrections</a></li>
+            <li class="ml-3"><a href="">Contact Us</a></li>
+            <li class="ml-3"><a href="">Editorial Guidelines</a></li>
+            <li class="ml-3"><a href="">Advertise</a></li>
+            <li class="ml-3"><a href="">Copyright</a></li>
+            <li class="ml-3"><a href="">Terms & Conditions</a></li>
+            <li class="ml-3"><a href="">Privacy Policy</a></li>
+            <li class="ml-3"><a href="">Cookie Policy</a></li>
+            <li class="ml-3"><a href="">Terms of Sale</a></li>
+            <li class="ml-3"><a href="">Archive</a></li>
+            <li class="ml-3"><a href="">Announcements</a></li>
+            <li class="ml-3"><a href="">Consent Prefrences</a></li>
           </ul>
         </nav>
-      </div>
-      <div class="col-lg-12">
-        <a href="">Consent Prefrences</a>
       </div>
     </div>
   </footer>
