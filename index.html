@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/2d6ecfbd70.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
+  <header class="header width">
     <div class="row">
       <div class="col-2">
         <a href=""><h5><i class="fas fa-cloud-sun"></i> 20º La Encarnacion, PY <i class="fas fa-angle-right"></i></h5></a>
@@ -25,36 +25,51 @@
       </div>
     </div>
   </header>
-  <div class="sticky-top">
+  <div class="sticky-top width">
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Newsweek</a>
+      <a class="navbar-brand d-md-none" href="#">Newsweek</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item active my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">U.S</h4></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">World</h4></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">Business</h4></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">Tech & Science</h4></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">Culture</h4></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">Newsgeek</h4></a>
+          </li>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">Sports</h4></a>
+          </li>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">Health</h4></a>
+          </li>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">The Debate</h4></a>
+          </li>
+          <li class="nav-item my-2 px-3 border-right">
+            <a class="nav-link" href="#"><h4 class="bold">Vantage</h4></a>
+          </li>
+          <li class="nav-item my-2 px-3">
+            <a class="nav-link" href="#"><h4 class="bold">Weather</h4></a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
@@ -99,7 +114,12 @@
           <div class="card row">
             <div class="card-body">
               <a href="">
-                <img class="img-fluid" src="./img/donald-trump.webp" alt="trump">
+                <div class="editor-img-box">
+                  <img class="img-fluid" src="./img/donald-trump.webp" alt="trump">
+                  <div class="editor-img-title">
+                    <h5>Health</h5>
+                  </div>
+                </div>
               </a>
               <a href="#" class="card-title">
                 <h1>Trump Calls for Delayed Election Day</h1>
@@ -119,7 +139,12 @@
           <div class="card row">
             <div class="card-body">
               <a href="">
-                <img class="img-fluid" src="./img/mcconnell.webp" alt="turtle">
+                <div class="editor-img-box">
+                  <img class="img-fluid" src="./img/mcconnell.webp" alt="turtle">
+                  <div class="editor-img-title">
+                    <h5>U.S.</h5>
+                  </div>
+                </div>
               </a>
               <h1 class="card-title">McConnell Calls for Stimulus Compromise, Doubles Down on Liability Red Line</h1>
               <p class="card-text">
@@ -130,7 +155,12 @@
           <div class="row card">
             <div class="card-body">
               <a href="">
-                <img class="img-fluid" src="./img/stockholm-sweden-july-202.webp" alt="2">
+                <div class="editor-img-box">
+                  <img class="img-fluid" src="./img/stockholm-sweden-july-202.webp" alt="2">
+                  <div class="editor-img-title">
+                    <h5>U.S.</h5>
+                  </div>
+                </div>
               </a>
               <h1 class="card-title">Sweden, Which Never Had Lockdown, Sees COVID-19 Cases Plummet</h1>
               <p class="card-text">
@@ -141,7 +171,12 @@
           <div class="card row">
             <div class="card-body">
               <a href="">
-                <img class="img-fluid" src="./img/us-china-australia-coronavirus-military-state-media.webp" alt="3">
+                <div class="editor-img-box">
+                  <img class="img-fluid" src="./img/us-china-australia-coronavirus-military-state-media.webp" alt="3">
+                  <div class="editor-img-title">
+                    <h5>U.S.</h5>
+                  </div>
+                </div>
               </a>
               <h1 class="card-title">China Media Warns U.S., Allies of 'Unbearable' Consequences of New Cold War</h1>
               <p class="card-text">
@@ -152,7 +187,12 @@
           <div class="card row">
             <div class="card-body">
               <a href="">
-                <img class="img-fluid" src="./img/spain-covid-19-cases-rise.webp" alt="4">
+                <div class="editor-img-box">
+                  <img class="img-fluid" src="./img/spain-covid-19-cases-rise.webp" alt="4">
+                  <div class="editor-img-title">
+                    <h5>News</h5>
+                  </div>
+                </div>
               </a>
               <h1 class="card-title">Second Wave of COVID-19 Is 'Rolling Across Europe,' British Official Warns</h1>
               <p class="card-text">
@@ -163,7 +203,12 @@
           <div class="card row">
             <div class="card-body">
               <a href="">
-                <img class="img-fluid" src="./img/chinas-ambassador-uk.webp" alt="5">
+                <div class="editor-img-box">
+                  <img class="img-fluid" src="./img/chinas-ambassador-uk.webp" alt="5">
+                  <div class="editor-img-title">
+                    <h5>U.S.</h5>
+                  </div>
+                </div>
               </a>
               <h1 class="card-title">White House Funds Far-Right Fundamentalists to Lie, China Ambassador Claims</h1>
               <p class="card-text">
@@ -575,8 +620,12 @@
         <div class="col-lg-3 col-md-12">
           <div class="card">
             <a href="">
-              <img class="card-img-top" src="./img/cover-july-31-august-07-2020.webp" alt="cover">
-              <h5>AUGUST 07 ISSUE</h5>
+              <div class="editor-img-box">
+                <img class="card-img-top" src="./img/cover-july-31-august-07-2020.webp" alt="cover">
+                <div class="editor-img-title">
+                  <h5>AUGUST 07 ISSUE</h5>
+                </div>
+              </div>
             </a>
             <div class="card-body">
               <h2 class="card-title">SEE ALL FEATURES</h2>
@@ -677,10 +726,10 @@
         <div class="col-lg-3 col-md-12">
           <div class="card border-0">
             <a href="">
-              <div>
+              <div class="editor-img-box">
                 <img class="card-img-top" src="./img/prince-harry-anti-poaching-patrol-botswana.webp" alt="megan">
-                <div>
-                  <h3>News</h3>
+                <div class="editor-img-title">
+                  <h5>News</h5>
                 </div>
               </div>
             </a>
@@ -696,9 +745,9 @@
         <div class="col-lg-3 col-md-12">
           <div class="card">
             <a href="">
-              <div>
+              <div class="editor-img-box">
                 <img class="card-img-top" src="./img/ice (1).webp" alt="ice">
-                <div>
+                <div class="editor-img-title">
                   <h5>U.S.</h5>
                 </div>
               </div>
@@ -715,8 +764,12 @@
         <div class="col-lg-3 col-md-12">
           <div class="card border-0">
             <a href="#">
-              <img class="card-img-top" src="./img/aerographite.webp" alt="aero">
-              <h5>TECH & Science</h5>
+              <div class="editor-img-box">
+                <img class="card-img-top" src="./img/aerographite.webp" alt="aero">
+                <div class="editor-img-title">
+                  <h5>TECH & Science</h5>
+                </div>
+              </div>
             </a>
             <div class="card-body">
               <a href="">
@@ -729,9 +782,9 @@
         <div class="col-lg-3 col-md-12">
           <div class="card border-0">
             <a href="">
-              <div>
+              <div class="editor-img-box">
                 <img class="card-img-top" src="./img/florida-covid-19.webp" alt="">
-                <div>
+                <div class="editor-img-title">
                   <h5>U.S.</h5>
                 </div>
               </div>
@@ -749,9 +802,9 @@
         <div class="col-lg-3 col-md-12">
           <div class="card border-0">
             <a href="#">
-              <div>
+              <div class="editor-img-box">
                 <img class="card-img-top" src="./img/recovered-covid-patient.webp" alt="">
-                <div>
+                <div class="editor-img-title">
                   <h5>NEWS</h5>
                 </div>
               </div>
@@ -767,9 +820,9 @@
         <div class="col-lg-3 col-md-12">
           <div class="card border-0">
             <a href="#">
-              <div>
+              <div class="editor-img-box">
                 <img class="card-img-top" src="./img/florida-coronavirus-covid-19-icu-ron-desantis.webp" alt="icu">
-                <div>
+                <div class="editor-img-title">
                   <h5>U.S.</h5>
                 </div>
               </div>
@@ -786,9 +839,9 @@
         <div class="col-lg-3 col-md-12">
           <div class="card border-0">
             <a href="#">
-              <div>
+              <div class="editor-img-box">
                 <img class="card-img-top" src="./img/justice-ruth-bader-ginsburg-hospitalized-surgery-recovery.webp" alt="ruth">
-                <div>
+                <div class="editor-img-title">
                   <h5>U.S.</h5>
                 </div>
               </div>
@@ -805,9 +858,9 @@
         <div class="col-lg-3 col-md-12">
           <div class="card border-0">
             <a href="">
-              <div>
+              <div class="editor-img-box">
                 <img class="card-img-top" src="./img/tech-industry-ceos.webp" alt="ceos">
-                <div>
+                <div class="editor-img-title">
                   <h5>TECH & SCIENCE</h5>
                 </div>
               </div>

@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 main {
@@ -33,6 +33,7 @@ main {
 
 a {
   text-decoration: none!important;
+  color: black!important;
 }
 
 h1 {
@@ -47,7 +48,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.9rem;
+  font-size: 1.9rem!important;
 }
 
 h5 {
@@ -62,6 +63,15 @@ p {
   font-size: 1.5rem;
 }
 
+.bold {
+  font-weight: 700;
+}
+
+.width {
+  max-width: 150rem;
+  margin: 0 auto;
+}
+
 /* --------------- Hedaer ----------------- */
 .header {
     width: 100%;
@@ -70,4 +80,28 @@ p {
     padding: 0 3rem;
     color: white;
     font-size: 2rem;
+}
+
+/* --------------- Editor's Picks ----------------- */
+.editor-img-box {
+  position: relative;
+}
+
+.editor-img-title {
+  position: absolute;
+  background-color: rgba(255,255,255, 0.8);
+  left: 0;
+  bottom: 0;
+  padding: 0.8rem 1.7rem;
+}
+
+.editor-img-title h5 {
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* --------------------- Navbar --------------------- */
+.border-right {
+  border-right: 1px solid rgba(0,0,0,0.6);
 }
