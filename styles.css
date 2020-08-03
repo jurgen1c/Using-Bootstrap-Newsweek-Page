@@ -147,6 +147,24 @@ p {
   z-index: 5;
 }
 
+/* ----------------- In The Magazine ----------------- */
+.subtitle-box {
+  position: relative;
+  display: flex;
+}
+
+.subtitle {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.red-title {
+  color: var(--color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 /* --------------- Editor's Picks ----------------- */
 .editor-img-box {
   position: relative;
