@@ -81,6 +81,10 @@ p {
   margin: 0 auto;
 }
 
+.bg-white {
+  background: white;
+}
+
 /* --------------- Hedaer ----------------- */
 .header {
     width: 100%;
