@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%; /* 10px -> 1rem */
+    overflow-x: hidden;
 }
 
 :root {
@@ -17,6 +18,7 @@ html {
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.6rem !important;
 }
 
 main {
@@ -24,13 +26,6 @@ main {
   width: 100%;
   max-width: 1500px;
 }
-/*
-.width-container {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-}
-*/
 
 a {
   text-decoration: none!important;
@@ -85,11 +80,6 @@ p {
 
 .bold {
   font-weight: 700;
-}
-
-.width {
-  max-width: 150rem;
-  margin: 0 auto;
 }
 
 .bg-white {
@@ -187,4 +177,12 @@ p {
 /* --------------------- Navbar --------------------- */
 .border-right {
   border-right: 1px solid rgba(0,0,0,0.6);
+}
+
+/* ---------------------- Media Queries ------------------------- */
+@media only screen and (min-width: 1500px) {
+  .width {
+    width: 150rem !important;
+    margin: 0 auto !important;
+  }
 }
