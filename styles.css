@@ -1,18 +1,18 @@
 *,
-*:before,
-*:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%; /* 10px -> 1rem */
+  font-size: 62.5%; /* 10px -> 1rem */
 }
 
 :root {
-    --color-primary: #f72210;
-    --color-yellow: #ffe400;
+  --color-primary: #f72210;
+  --color-yellow: #ffe400;
 }
 
 body {
@@ -27,43 +27,44 @@ main {
 }
 
 a {
-  text-decoration: none!important;
-  color: black!important;
+  text-decoration: none !important;
+  color: black !important;
 }
 
 h1 {
-  font-size: 2.4rem!important;
+  font-size: 2.4rem !important;
 }
 
 h2 {
   font-size: 2.2rem !important;
 }
+
 h3 {
-  font-size: 2rem!important;
+  font-size: 2rem !important;
 }
 
 h4 {
-  font-size: 1.9rem!important;
+  font-size: 1.9rem !important;
 }
 
 h5 {
-  font-size: 1.7rem!important;
+  font-size: 1.7rem !important;
 }
 
 h6 {
-  font-size: 1.4rem!important;
+  font-size: 1.4rem !important;
 }
 
 p {
-  font-size: 1.5rem!important;
+  font-size: 1.5rem !important;
 }
 
 .btn-primary {
-  background: var(--color-yellow)!important;
+  background: var(--color-yellow) !important;
   border-radius: 2.5rem;
   padding: 0.5rem 2rem;
   text-transform: uppercase;
-  font-size: 1.7rem!important;
+  font-size: 1.7rem !important;
   font-weight: 700;
 }
 
@@ -87,12 +88,12 @@ p {
 
 /* --------------- Hedaer ----------------- */
 .header {
-    width: 100%;
-    height: 10rem;
-    background-color: var(--color-primary);
-    padding: 0 3rem;
-    color: white;
-    font-size: 2rem;
+  width: 100%;
+  height: 10rem;
+  background-color: var(--color-primary);
+  padding: 0 3rem;
+  color: white;
+  font-size: 2rem;
 }
 
 .editor-img-box i {
@@ -107,7 +108,7 @@ p {
 }
 
 .editor-img-box input:focus {
-  outline: none!important;
+  outline: none !important;
 }
 
 /* --------------- Featured Stories ----------------- */
@@ -161,7 +162,7 @@ p {
 
 .editor-img-title {
   position: absolute;
-  background-color: rgba(255,255,255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   left: 0;
   bottom: 0;
   padding: 0.8rem 1.7rem;
@@ -175,7 +176,7 @@ p {
 
 /* --------------------- Navbar --------------------- */
 .border-right {
-  border-right: 1px solid rgba(0,0,0,0.6);
+  border-right: 1px solid rgba(0, 0, 0, 0.6);
 }
 
 /* ---------------------- Media Queries ------------------------- */
