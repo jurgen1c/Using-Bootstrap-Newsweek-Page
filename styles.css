@@ -1,0 +1,265 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px -> 1rem */
+  overflow-x: hidden;
+}
+
+:root {
+  --color-primary: #f72210;
+  --color-yellow: #ffe400;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.6rem !important;
+}
+
+main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1500px;
+}
+
+/* --------------- Fonts ---------------- */
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+p {
+  font-size: 1.5rem !important;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.news-title {
+  font-size: 1.6rem !important;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+}
+
+.my-turn-text {
+  font-size: 1.6rem !important;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.big-links {
+  font-size: 2rem !important;
+  font-weight: 800;
+  color: black;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.big-links:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--color-primary) !important;
+}
+
+.small-links {
+  font-size: 1.7rem !important;
+  font-weight: 700 !important;
+  color: black;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.small-links:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--color-primary) !important;
+}
+
+.white-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+.white-small {
+  font-size: 1.4rem !important;
+}
+
+.nav-font {
+  font-size: 1.5rem !important;
+}
+
+.sub-font {
+  font-size: 1.8rem !important;
+}
+
+/* -------------- Buttons --------------- */
+
+.btn-primary {
+  background: var(--color-yellow) !important;
+  border-radius: 2.5rem;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  font-size: 1.7rem !important;
+  font-weight: 700;
+}
+
+.btn-secondary {
+  background-color: var(--color-primary) !important;
+  font-size: 1.7rem !important;
+  font-weight: 700 !important;
+  color: white;
+  border: 1px solid var(--color-primary) !important;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+}
+
+.bg-white {
+  background: white;
+}
+
+/* --------------- Hedaer ----------------- */
+.header {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--color-primary);
+  padding: 0 3rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.editor-img-box i {
+  position: absolute;
+  right: 1rem;
+  top: 0.3rem;
+  font-size: 2rem;
+}
+
+.editor-img-box input {
+  border: none;
+}
+
+input[type="text"] {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
+
+#border-none {
+  border: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 8rem;
+}
+
+/* --------------- Featured Stories ----------------- */
+
+.debate-container::before,
+.debate-container::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.vs-container {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.vs-container img {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+/* ----------------- In The Magazine ----------------- */
+.subtitle-box {
+  position: relative;
+  display: flex;
+}
+
+.subtitle {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.red-title {
+  color: var(--color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.red-title-small {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.mag-pad-1 {
+  padding-top: 9rem;
+}
+
+.mag-pad-2 {
+  padding-top: 3rem;
+}
+
+/* --------------- Editor's Picks ----------------- */
+.editor-img-box {
+  position: relative;
+}
+
+.editor-img-title {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  left: 0;
+  bottom: 0;
+  padding: 0.8rem 1.7rem;
+}
+
+.editor-img-title h5 {
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* --------------------- Navbar --------------------- */
+.border-right {
+  border-right: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+/* --------------- Toggle Icon -------------- */
+.navbar-toggler i {
+  color: white;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* ---------------------- Media Queries ------------------------- */
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50% !important;
+  }
+}
