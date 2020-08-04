@@ -68,9 +68,17 @@ p {
   text-decoration-color: var(--color-primary) !important;
 }
 
-#small-links {
+.small-links {
   font-size: 1.7rem !important;
   font-weight: 700 !important;
+  color: black;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.small-links:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--color-primary) !important;
 }
 
 .white-title {
@@ -79,7 +87,7 @@ p {
   color: white;
 }
 
-#white-small {
+.white-small {
   font-size: 1.4rem !important;
 }
 
@@ -139,7 +147,7 @@ input[type="text"] {
   border: none !important;
   -webkit-box-shadow: none;
   box-shadow: none;
-  width: 6rem;
+  width: 10rem;
 }
 
 /* --------------- Featured Stories ----------------- */
