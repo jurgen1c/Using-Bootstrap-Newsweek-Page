@@ -73,12 +73,14 @@ p {
   font-weight: 700 !important;
 }
 
-.mag-pad-1 {
-  padding-top: 9rem;
+.white-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
 }
 
-.mag-pad-2 {
-  padding-top: 3rem;
+#white-small {
+  font-size: 1.4rem !important;
 }
 
 /* -------------- Buttons --------------- */
@@ -133,6 +135,13 @@ input[type="text"] {
   border:1px solid #ccc !important;
 }
 
+#border-none {
+  border: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width: 6rem;
+}
+
 /* --------------- Featured Stories ----------------- */
 
 .debate-container::before,
@@ -183,6 +192,14 @@ input[type="text"] {
   font-size: 2rem;
 }
 
+.mag-pad-1 {
+  padding-top: 9rem;
+}
+
+.mag-pad-2 {
+  padding-top: 3rem;
+}
+
 /* --------------- Editor's Picks ----------------- */
 .editor-img-box {
   position: relative;
@@ -207,10 +224,32 @@ input[type="text"] {
   border-right: 1px solid rgba(0, 0, 0, 0.6);
 }
 
+/* --------------- Toggle Icon -------------- */
+.navbar-toggler i {
+  color: white;
+} 
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 /* ---------------------- Media Queries ------------------------- */
 @media only screen and (min-width: 1500px) {
   .width {
     width: 150rem !important;
     margin: 0 auto !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
   }
 }
