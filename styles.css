@@ -27,6 +27,8 @@ main {
   max-width: 1500px;
 }
 
+/* --------------- Fonts ---------------- */
+
 a {
   text-decoration: none !important;
   color: black !important;
@@ -60,6 +62,51 @@ p {
   font-size: 1.5rem !important;
 }
 
+.bold {
+  font-weight: 700;
+}
+
+.news-title {
+  font-size: 1.6rem !important;
+  font-weight: 700;
+  color: rgba(0,0,0,0.4);
+  text-transform: uppercase;
+}
+
+.my-turn-text {
+  font-size: 1.6rem !important;
+  font-weight: 700;
+  color: rgba(0,0,0,0.4);
+}
+
+.big-links {
+  font-size: 2rem !important;
+  font-weight: 800;
+  color: black;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.big-links:hover {
+  text-decoration: underline !important;
+  text-decoration-color: var(--color-primary) !important;
+}
+
+#small-links {
+  font-size: 1.7rem !important;
+  font-weight: 700 !important;
+}
+
+.mag-pad-1 {
+  padding-top: 9rem;
+}
+
+.mag-pad-2 {
+  padding-top: 3rem;
+}
+
+/* -------------- Buttons --------------- */
+
 .btn-primary {
   background: var(--color-yellow) !important;
   border-radius: 2.5rem;
@@ -77,10 +124,6 @@ p {
   border: 1px solid var(--color-primary) !important;
   border-radius: 3px;
   padding: 0.5rem 1rem;
-}
-
-.bold {
-  font-weight: 700;
 }
 
 .bg-white {
@@ -108,8 +151,10 @@ p {
   border: none;
 }
 
-.editor-img-box input:focus {
-  outline: none !important;
+input[type="text"] {
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid #ccc !important;
 }
 
 /* --------------- Featured Stories ----------------- */
@@ -154,6 +199,12 @@ p {
   color: var(--color-primary);
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.red-title-small {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 /* --------------- Editor's Picks ----------------- */
