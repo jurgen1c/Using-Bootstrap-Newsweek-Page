@@ -91,6 +91,14 @@ p {
   font-size: 1.4rem !important;
 }
 
+.nav-font {
+  font-size: 1.5rem !important;
+}
+
+.sub-font {
+  font-size: 1.8rem !important;
+}
+
 /* -------------- Buttons --------------- */
 
 .btn-primary {
@@ -147,7 +155,7 @@ input[type="text"] {
   border: none !important;
   -webkit-box-shadow: none;
   box-shadow: none;
-  width: 10rem;
+  width: 6rem;
 }
 
 /* --------------- Featured Stories ----------------- */
@@ -249,15 +257,9 @@ input[type="text"] {
 }
 
 /* ---------------------- Media Queries ------------------------- */
-@media only screen and (min-width: 1500px) {
-  .width {
-    width: 150rem !important;
-    margin: 0 auto !important;
-  }
-}
 
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 50%;
+    font-size: 50% !important;
   }
 }
