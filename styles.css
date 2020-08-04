@@ -45,14 +45,14 @@ p {
 .news-title {
   font-size: 1.6rem !important;
   font-weight: 700;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0, 0, 0, 0.4);
   text-transform: uppercase;
 }
 
 .my-turn-text {
   font-size: 1.6rem !important;
   font-weight: 700;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .big-links {
@@ -131,8 +131,8 @@ p {
 
 input[type="text"] {
   outline: none;
-  box-shadow:none !important;
-  border:1px solid #ccc !important;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
 }
 
 #border-none {
@@ -227,7 +227,7 @@ input[type="text"] {
 /* --------------- Toggle Icon -------------- */
 .navbar-toggler i {
   color: white;
-} 
+}
 
 .navbar-toggler {
   border: none !important;
@@ -236,8 +236,8 @@ input[type="text"] {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 /* ---------------------- Media Queries ------------------------- */
