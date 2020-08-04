@@ -90,7 +90,7 @@ p {
 /* --------------- Hedaer ----------------- */
 .header {
   width: 100%;
-  height: 10rem;
+  height: fit-content;
   background-color: var(--color-primary);
   padding: 0 3rem;
   color: white;

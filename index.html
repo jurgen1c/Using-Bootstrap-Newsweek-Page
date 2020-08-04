@@ -10,77 +10,81 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header width d-none d-md-block">
-    <div class="row">
-      <div class="col-3 py-5">
-        <a class="text-white my-4" href=""><h5><i class="fas fa-cloud-sun"></i> 20º La Encarnacion, PY <i class="fas fa-angle-right"></i></h5></a>
-        <h5 class="my-4">Thu, Jul 30, 2020</h5>
-      </div>
-      <div class="col-6 text-center pt-3">
-        <a href=""><img src="./img/logo-white.png" class="" alt="logo" width="500"></a>
-      </div>
-      <div class="col-3 pt-5 mt-4 d-flex">
-        <div class="ml-4">
-          <a class="text-white" href="#" >Login</a>
+  <header class="header">
+    <nav class="navbar navbar-expand navbar-light container-fluid">
+      <a href="#" class="navbar-brand d-lg-none">
+        <img class="logo" src="./img/logo-white.png" width="100" alt="logo">
+      </a>
+      <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item d-none d-lg-block">
+              <a href="#">Mon, Agus 03, 2020</a>
+            </li>
+          </ul>
+          <a href="#" class="navbar-brand d-none d-lg-block">
+            <img class="logo1" src="./img/logo-white.png" width="300" alt="logo">
+          </a>
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="d-sm-block d-md-none"><i class="fa fa-user"></i></a>
+              </li>
+              <li>
+                <a href="#" class="d-none d-md-block">LOGIN</a>
+              </li>
+              <li>
+                  <a href="#" class="subscribe d-none d-md-block">SUBSCRIBE <i class="fas fa-angle-right"></i></a>
+              </li>
+              <button class="navbar-toggler d-block d-lg-none" type="button" data-toggle="collapse" 
+              data-target="#secondNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          </ul>
+          
         </div>
-        <div class="ml-4">
-          <a href="#" class="btn-primary">Subscribe</a>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="sticky-top">
-    
-    <nav class="navbar navbar-expand-lg navbar-light main-nav bg-white width">
-      <a class="navbar-brand d-md-none py-2" href="#"><img src="./img/logo-red.png" alt="logo" width="150"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">U.S</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">World</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">Business</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">Tech & Science</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">Culture</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">Newsgeek</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">Sports</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">Health</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">The Debate</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3 border-right">
-            <a class="nav-link" href="#"><h4 class="bold">Vantage</h4></a>
-          </li>
-          <li class="nav-item my-2 px-3">
-            <a class="nav-link" href="#"><h4 class="bold">Weather</h4></a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <div class="editor-img-box">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </div>
-        </form>
-      </div>
     </nav>
-  </div>
+  </header>  
+  <nav class="navbar navbar-expand-lg container-fluid bg-white w-100 ml-0">  
+    <div class="collapse navbar-collapse" id="secondNavbar">
+      <ul class="navbar-nav mr-auto buttons-menus">
+          <li class="nav-item">
+            <a href="#">U.S</a>
+          </li>
+          <li>
+              <a href="#">Word</a>
+          </li>
+          <li class="navbar-expand-lg">
+              <a href="#" >Business</a>
+          </li>
+          <li class="navbar-expand-lg">
+            <a href="#" >Tech & Science</a>
+          </li>
+          <li class="navbar-expand-lg">
+            <a href="#" >Culture</a>
+          </li>
+          <li class="navbar-expand-lg">
+            <a href="#" >Newsgeek</a>
+          </li>
+          <li class="navbar-expand-lg">
+            <a href="#" >Sports</a>
+          </li>
+          <li class="navbar-expand-lg">
+            <a href="#" >Health</a>
+          </li>
+          <li class="navbar-expand-lg">
+            <a href="#" >The Debate</a>
+          </li>
+          <li class="navbar-expand-lg">
+            <a href="#" >Vantage</a>
+          </li>
+          <li class="navbar-expand-lg">
+            <a href="#" >Weather</a>
+          </li>
+          <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search"><i class="fas fa-search"></i>
+          </form>
+      </ul>
+    </div>
+  </nav>
   <div class="row d-none d-lg-block bg-white w-100">
     <nav class="navbar navbar-expand-lg navbar-light width">
       <ul class="navbar-nav pl-4">
@@ -651,7 +655,7 @@
           <div class="card border-0 w-100">
             <a href="">
               <div class="editor-img-box">
-                <img class="card-img-top" src="./img/cover-july-31-august-07-2020.webp" alt="cover">
+                <img class="card-img-top img-fluid" src="./img/cover-july-31-august-07-2020.webp" alt="cover">
                 <div class="editor-img-title">
                   <h5>AUGUST 07 ISSUE</h5>
                 </div>
@@ -665,7 +669,7 @@
         <div class="col-lg-3 col-12 col-md-6 d-inline-flex align-items-end my-3">
           <div class="card border-0 w-100">
             <a href="">
-              <img class="card-img-top" height="300" src="./img/fea-kushner.webp" alt="fea">
+              <img class="card-img-top img-fluid" src="./img/fea-kushner.webp" alt="fea">
             </a>
             <div class="subtitle-box my-3">
               <h3 class="subtitle">COVER</h3>
@@ -677,19 +681,19 @@
         <div class="col-lg-3 col-12 col-md-6 d-inline-flex align-items-end my-3">
           <div class="card border-0 w-100">
             <a href="">
-              <img class="card-img-top" height="300" src="./img/fea-china-opener.webp" alt="china">
+              <img class="card-img-top img-fluid" src="./img/fea-china-opener.webp" alt="china">
             </a>
             <div class="subtitle-box my-3">
               <h3 class="subtitle">FEATURES</h3>
               <h3 class="red-title ml-3">CULTURE</h3>
             </div>
-            <h4><a class="red-title">How China Co-opts Hollywood</a></h4>
+            <h4><a class="red-title">How China Co-opts Hollywood</a><br><br></h4>
           </div>
         </div>
         <div class="col-lg-3 col-12 col-md-6 d-inline-flex align-items-end my-3">
           <div class="card border-0 w-100">
             <a href="">
-              <img class="card-img-top" height="300" src="./img/chief-justice-john-roberts.webp" alt="chief">
+              <img class="card-img-top img-fluid" src="./img/chief-justice-john-roberts.webp" alt="chief">
             </a>
             <div class="subtitle-box my-3">
               <h3 class="subtitle">PERISCOPE</h3>
@@ -701,7 +705,7 @@
         <div class="col-lg-3 col-12 col-md-6 d-inline-flex align-items-end my-3">
           <div class="card border-0 w-100">
             <a href="">
-              <img class="card-img-top" height="300" src="./img/lara-logan-egypt-sexual-assault.webp" alt="lara">
+              <img class="card-img-top img-fluid" src="./img/lara-logan-egypt-sexual-assault.webp" alt="lara">
             </a>
             <div class="subtitle-box my-3">
               <h3 class="subtitle">PERISCOPE</h3>
@@ -713,7 +717,7 @@
         <div class="col-lg-3 col-12 col-md-6 d-inline-flex align-items-end my-3">
           <div class="card border-0 w-100">
             <a href="">
-              <img class="card-img-top" height="300" src="./img/justice-scales.webp" alt="justice">
+              <img class="card-img-top img-fluid" src="./img/justice-scales.webp" alt="justice">
             </a>
             <div class="subtitle-box my-3">
               <h3 class="subtitle">PERISCOPE</h3>
@@ -725,7 +729,7 @@
         <div class="col-lg-3 col-12 col-md-6 d-inline-flex align-items-end my-3">
           <div class="card border-0 w-100">
             <a href="">
-              <img class="card-img-top" height="300" src="./img/cul-ps-kermit.webp" alt="kermit">
+              <img class="card-img-top img-fluid" src="./img/cul-ps-kermit.webp" alt="kermit">
             </a>
             <div class="subtitle-box my-3">
               <h3 class="subtitle">DOWNTOWN</h3>
@@ -737,7 +741,7 @@
         <div class="col-lg-3 col-12 col-md-6 d-inline-flex align-items-end my-3">
           <div class="card border-0 w-100">
             <a href="">
-              <img class="card-img-top" height="300" src="./img/maxresdefault.jpg" alt="ship">
+              <img class="card-img-top img-fluid" src="./img/maxresdefault.jpg" alt="ship">
             </a>
             <div class="subtitle-box my-3">
               <h3 class="subtitle">INFOCUS</h3>
